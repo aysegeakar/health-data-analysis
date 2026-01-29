@@ -12,6 +12,7 @@ using Python and SQL.
 - Python
 - SQL
 - Pandas
+- Matplotlib
 - Jupyter Notebook
 
 ## Status
@@ -21,5 +22,7 @@ Work in progress
 This project focuses on analyzing health datasets using Python and SQL.
 
 ## Sample Output
+
+Here is a simple visualization from the analysis:
 
 ![Age vs Cholesterol](age_vs_cholesterol.png)
