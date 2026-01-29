@@ -45,3 +45,13 @@ plt.xlabel('Age')
 plt.ylabel('Cholesterol')
 plt.savefig('age_vs_cholesterol.png')  # görseli kaydet
 plt.show()
+import matplotlib.pyplot as plt
+
+# Grafik oluştur
+plt.scatter(df['Age'], df['Cholesterol'], color='blue')
+plt.title('Age vs Cholesterol')
+plt.xlabel('Age')
+plt.ylabel('Cholesterol')
+plt.savefig('age_vs_cholesterol.png')  # Görseli kaydet
+plt.show()
+
