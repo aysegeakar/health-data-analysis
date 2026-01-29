@@ -1,7 +1,8 @@
 # Health Data Analysis
 
-This project focuses on analyzing health and laboratory-style datasets
-using Python and SQL.
+This project focuses on analyzing health and laboratory-style datasets using Python and SQL.  
+It demonstrates basic data cleaning, exploration, and visualization for health-related data.
+
 
 ## Objectives
 - Practice data cleaning and exploratory data analysis
