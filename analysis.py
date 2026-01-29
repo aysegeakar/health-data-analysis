@@ -44,5 +44,6 @@ plt.title('Age vs Cholesterol')
 plt.xlabel('Age')
 plt.ylabel('Cholesterol')
 plt.savefig('age_vs_cholesterol.png')  # görseli kaydet
+plt.savefig('age_vs_cholesterol.png', bbox_inches='tight')
 plt.show()
 
