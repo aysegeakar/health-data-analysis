@@ -16,3 +16,10 @@ using Python and SQL.
 
 ## Status
 Work in progress
+# Health Data Analysis
+
+This project focuses on analyzing health datasets using Python and SQL.
+
+## Sample Output
+
+![Age vs Cholesterol](age_vs_cholesterol.png)
