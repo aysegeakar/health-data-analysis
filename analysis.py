@@ -1,7 +1,7 @@
 # analysis.py
 import pandas as pd
 
-# Örnek veri (CSV yerine kendi veri setini koyabilirsin)
+# Örnek veri (CSV yerine veri setini koyabilirsin)
 data = {
     'PatientID': [1,2,3,4,5],
     'Age': [25, 34, 28, 52, 46],
@@ -37,13 +37,18 @@ plt.ylabel('Cholesterol')
 plt.savefig('age_vs_cholesterol.png')  # görseli kaydet
 plt.show()
 import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
-# Grafik oluştur
-plt.scatter(df['Age'], df['Cholesterol'], color='blue')
+# Örnek veri
+ages = [25, 34, 28, 52, 46]
+cholesterol = [180, 220, 190, 240, 200]
+
+# Grafik
+plt.scatter(ages, cholesterol, color='blue')
 plt.title('Age vs Cholesterol')
 plt.xlabel('Age')
 plt.ylabel('Cholesterol')
-plt.savefig('age_vs_cholesterol.png')  # görseli kaydet
+
+# PNG olarak kaydet
 plt.savefig('age_vs_cholesterol.png', bbox_inches='tight')
 plt.show()
-
