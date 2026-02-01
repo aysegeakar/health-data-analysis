@@ -26,7 +26,7 @@ This project focuses on analyzing health datasets using Python and SQL.
 
 Here is a simple visualization from the analysis:
 
-![Age vs Cholesterol](age_vs_cholesterol.png)
+<!-- ![Age vs Cholesterol](age_vs_cholesterol.png)-->
 
 <!-- ![Age vs Cholesterol](A_scatter_plot_graph_titled_"Age_vs_Cholesterol"_i.png)-->
 
